@@ -1,0 +1,18 @@
+<a [href]="this.url" target="_blank">
+  <p-card>
+    <ng-template pTemplate="header">
+      <div class="pt-4">
+        <img [src]="this.image" class="avatar" [alt]="this.title"/>
+        <h1>{{this.title}}</h1>
+      </div>
+    </ng-template>
+    <div class="text-lg info-block">
+      <div class="name" *ngIf="!!this.name">{{this.name}}</div>
+      <div class="description">{{this.description}}</div>
+    </div>
+
+    <!--  <ng-template pTemplate="footer">-->
+    <!--    Footer content here-->
+    <!--  </ng-template>-->
+  </p-card>
+</a>
