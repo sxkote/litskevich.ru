@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'li-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  templateUrl: './home.view.html',
+  styleUrls: ['./home.view.scss']
 })
-export class AppComponent {
+export class HomeView {
   title = 'Litskevich';
 }
