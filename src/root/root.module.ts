@@ -11,11 +11,11 @@ import {RootRoutingModule} from "./root-routing.module";
 import {AppView} from './views/app/app.view';
 import {HomeView} from "./views/home/home.view";
 
-import {ItemCardComponent} from "./components/app-card/item-card.component";
+import {ItemCardComponent} from "./components/item-card/item-card.component";
+import {ListFamilyComponent} from './components/list-family/list-family.component';
+import {ListAppsComponent} from './components/list-apps/list-apps.component';
 import {ApplicationsView} from './views/applications/applications.view';
-import { ListFamilyComponent } from './components/list-family/list-family.component';
-import { ListAppsComponent } from './components/list-apps/list-apps.component';
-import { FamilyView } from './views/family/family.view';
+import {FamilyView} from './views/family/family.view';
 
 @NgModule({
   declarations: [

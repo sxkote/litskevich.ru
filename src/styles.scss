@@ -20,6 +20,10 @@ a {
   &:hover {
     text-decoration: none;
   }
+
+  &:visited, &:hover, &:focus {
+    color: var(--color-text);
+  }
 }
 
 .p-component {
